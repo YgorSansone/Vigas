@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  margin-left: 4%;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+canvas {
+  display: block;
+}
+.elementos{
+width: 50%;
+border-bottom: 3px solid #3299ff;
+background-color: #2f2f2f08;
+}
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number]:focus {
+  background-color: lightblue;
+}
+input[type=checkbox]{
+  display: none;
+}
+
+
+input[type=checkbox] + label{
+  padding-left:30px;
+  height:25px; 
+  display:inline-block;
+  line-height:25px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size:25px;
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+input[type=checkbox]:checked + label{
+background-position: 0 -25px;
+}
+
+label{
+background-image:url(bk.png);
+
+}
